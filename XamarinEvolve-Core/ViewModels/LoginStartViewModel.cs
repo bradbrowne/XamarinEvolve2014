@@ -16,7 +16,7 @@ namespace XamarinEvolve.Core.ViewModels
 {
     // CoolStuff: We're making sure all of our classes that are hosted can be
     // properly serialized. If we do this right, we'll get app lifecycle
-    // serialization for free
+    // serializatimon for free
     [DataContract]
     public class LoginStartViewModel : ReactiveObject, IRoutableViewModel
     {
